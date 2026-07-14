@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int number;
+    cout<<"enter the number:";
+    cin>>number;
+    int sum{0};
+    for(int i{1};i<=number;++i){
+        sum+=i;        
+    }cout<<"Sum of the N numbers are: "<<sum<<endl;
+}
