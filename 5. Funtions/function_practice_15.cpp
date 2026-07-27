@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int multiply(int a, int b);
+int multiply(int a,int b, int c);
+int main(){
+    cout << multiply(5,4) << endl;
+    cout << multiply(2,3,4);
+}
+int multiply(int a, int b){
+    return a*b;
+}
+int multiply(int a,int b, int c){
+    return a*b*c;
+}

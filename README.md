@@ -11,6 +11,8 @@ The goal of this repository is to build a strong foundation in C++, software eng
 - Basics
 - Statements & Operators
 - Controlling Program Flow
+- Arrays & Vectors
+- Functions
 
 Each folder contains the practice programs and exercises completed while learning that topic.
 
@@ -21,12 +23,16 @@ Each folder contains the practice programs and exercises completed while learnin
 - ✅ Basics
 - ✅ Statements & Operators
 - ✅ Controlling Program Flow
+- ✅ Arrays & Vectors
+- ✅ Functions
 
 ---
 
-## Next Topic
+## Current Focus
 
-- Functions
+- HackerRank
+- Problem Solving
+- Data Structures & Algorithms (DSA)
 
 ---
 
@@ -36,14 +42,17 @@ For every topic, I follow this workflow:
 
 1. Learn the concept
 2. Understand the logic
-3. Solve coding problems
+3. Write code from scratch
 4. Debug mistakes
-5. Review the chapter
-6. Organize the repository
-7. Commit and push to GitHub
+5. Practice until confident
+6. Review the chapter
+7. Organize the repository
+8. Commit and push to GitHub
 
 ---
 
 ## Goal
 
 Build strong problem-solving skills and become a software engineer capable of developing clean, efficient, and maintainable software.
+
+This repository will continue to grow as I learn new C++ concepts, solve coding challenges, and work on larger projects.
