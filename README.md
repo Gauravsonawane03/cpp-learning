@@ -13,6 +13,7 @@ The goal of this repository is to build a strong foundation in C++, software eng
 - Controlling Program Flow
 - Arrays & Vectors
 - Functions
+- Characters & Strings
 
 Each folder contains the practice programs and exercises completed while learning that topic.
 
@@ -25,13 +26,14 @@ Each folder contains the practice programs and exercises completed while learnin
 - ✅ Controlling Program Flow
 - ✅ Arrays & Vectors
 - ✅ Functions
+- ✅ Characters & Strings
 
 ---
 
 ## Current Focus
 
+- Pointers
 - HackerRank
-- Problem Solving
 - Data Structures & Algorithms (DSA)
 
 ---
@@ -42,12 +44,13 @@ For every topic, I follow this workflow:
 
 1. Learn the concept
 2. Understand the logic
-3. Write code from scratch
-4. Debug mistakes
-5. Practice until confident
-6. Review the chapter
-7. Organize the repository
-8. Commit and push to GitHub
+3. Predict the output before running the code
+4. Write code from scratch
+5. Debug mistakes
+6. Practice until confident
+7. Review the chapter
+8. Organize the repository
+9. Commit and push to GitHub
 
 ---
 
