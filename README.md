@@ -2,7 +2,7 @@
 
 This repository documents my journey of learning modern C++ from the fundamentals to advanced concepts through consistent coding practice, problem-solving, and projects.
 
-The primary goal of this repository is to build a strong foundation in C++, software engineering principles, and problem-solving skills before diving deep into Data Structures & Algorithms and software engineering interviews.
+The primary goal is to build a strong foundation in C++, software engineering principles, and problem-solving skills before progressing deeply into Data Structures & Algorithms and software engineering interviews.
 
 ---
 
@@ -15,6 +15,7 @@ The primary goal of this repository is to build a strong foundation in C++, soft
 - Functions
 - Characters & Strings
 - Pointers
+- STL
 
 Each folder contains practice programs, exercises, and examples completed while learning that topic.
 
@@ -22,7 +23,7 @@ Each folder contains practice programs, exercises, and examples completed while 
 
 ## Progress
 
-### ✅ Completed Topics
+### Completed Topics
 
 - Basics
 - Statements & Operators
@@ -38,13 +39,39 @@ Each folder contains practice programs, exercises, and examples completed while 
   - Returning Pointers
   - References
 
+### STL Foundation
+
+- Templates
+  - Function Templates
+  - Same-type Templates
+  - Mixed-type Templates
+- `std::array`
+  - Element Access
+  - Size
+  - Front & Back
+  - Empty
+- `std::vector`
+  - Size & Capacity
+  - `push_back()` / `pop_back()`
+  - `insert()`
+  - `resize()` / `reserve()`
+  - Capacity Growth & Reallocation
+  - Iterator Traversal
+- Iterators
+  - `begin()` / `end()`
+  - Dereferencing
+  - Iterator Increment
+  - Iterator Arithmetic
+  - Modifying Elements Through Iterators
+
 ---
 
 ## Current Focus
 
 - Data Structures & Algorithms (DSA)
+- Standard Template Library (STL)
 - HackerRank Problem Solving
-- Continuing Advanced C++ Concepts
+- Advanced C++ Concepts
 
 ---
 
@@ -68,10 +95,11 @@ For every topic, I follow this workflow:
 
 - Build a strong foundation in Modern C++
 - Develop problem-solving skills from first principles
+- Understand Data Structures & Algorithms deeply
 - Write clean, readable, and maintainable code
-- Prepare for Data Structures & Algorithms
+- Prepare for technical interviews
 - Build habits used in professional software engineering
-- Prepare for technical interviews and software engineering roles
+- Prepare for software engineering roles
 
 ---
 
@@ -82,11 +110,13 @@ For every topic, I follow this workflow:
 - Inheritance
 - Polymorphism
 - Smart Pointers
-- Standard Template Library (STL)
 - Exception Handling
 - File I/O
 - Lambda Expressions
 - Modern C++ Features (C++11/14/17/20)
+- Advanced STL
+- Data Structures & Algorithms
+- Competitive Programming / Problem Solving
 
 ---
 
@@ -100,4 +130,4 @@ The repository will continue to grow as I learn new concepts, solve coding chall
 
 ---
 
-⭐ Thank you for visiting this repository. Feedback and suggestions are always welcome.
+⭐ Feedback and suggestions are welcome.
