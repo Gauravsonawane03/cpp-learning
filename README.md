@@ -1,8 +1,8 @@
 # C++ Learning Journey
 
-This repository documents my journey of learning modern C++ from the fundamentals to advanced concepts through consistent coding practice, problem-solving, and projects.
+This repository documents my journey of learning modern C++ through consistent coding practice, problem-solving, and projects.
 
-The primary goal is to build a strong foundation in C++, software engineering principles, and problem-solving skills before progressing deeply into Data Structures & Algorithms and software engineering interviews.
+The goal is to build strong C++ fundamentals, develop problem-solving ability, understand Data Structures & Algorithms deeply, and prepare for software engineering interviews and professional software development.
 
 ---
 
@@ -45,11 +45,13 @@ Each folder contains practice programs, exercises, and examples completed while 
   - Function Templates
   - Same-type Templates
   - Mixed-type Templates
+
 - `std::array`
   - Element Access
   - Size
   - Front & Back
   - Empty
+
 - `std::vector`
   - Size & Capacity
   - `push_back()` / `pop_back()`
@@ -57,6 +59,7 @@ Each folder contains practice programs, exercises, and examples completed while 
   - `resize()` / `reserve()`
   - Capacity Growth & Reallocation
   - Iterator Traversal
+
 - Iterators
   - `begin()` / `end()`
   - Dereferencing
@@ -64,14 +67,84 @@ Each folder contains practice programs, exercises, and examples completed while 
   - Iterator Arithmetic
   - Modifying Elements Through Iterators
 
+- STL Algorithms
+  - `sort()`
+  - `reverse()`
+  - `max_element()` / `min_element()`
+  - `swap()`
+  - `binary_search()`
+
+- `std::deque`
+  - `push_front()` / `push_back()`
+  - `pop_front()` / `pop_back()`
+  - Front & Back
+  - Size
+  - Iterator Traversal
+
+- `std::list`
+  - `push_front()` / `push_back()`
+  - `pop_front()` / `pop_back()`
+  - `insert()`
+  - `erase()`
+  - Iterator Traversal
+
+- `std::stack`
+  - `push()` / `pop()`
+  - `top()`
+  - `size()`
+  - `empty()`
+
+- `std::queue`
+  - `push()` / `pop()`
+  - `front()` / `back()`
+  - `size()`
+  - `empty()`
+
+- `std::priority_queue`
+  - `push()` / `pop()`
+  - `top()`
+  - Max-heap / default behavior
+
+- `std::set`
+  - Unique Elements
+  - Sorted Order
+  - `insert()`
+  - `find()`
+  - `count()`
+  - `erase()`
+
+- `std::map`
+  - Key-Value Pairs
+  - Unique Keys
+  - Sorted Keys
+  - `operator[]`
+  - `find()`
+  - `count()`
+  - `erase()`
+
+- `std::unordered_map`
+  - Key-Value Pairs
+  - `find()`
+  - `count()`
+  - `erase()`
+  - Frequency Counting
+
+- `std::unordered_set`
+  - Unique Elements
+  - `insert()`
+  - `find()`
+  - `count()`
+  - `erase()`
+  - No Guaranteed Ordering
+
 ---
 
 ## Current Focus
 
-- Data Structures & Algorithms (DSA)
-- Standard Template Library (STL)
-- HackerRank Problem Solving
-- Advanced C++ Concepts
+- C++ OOP
+- Data Structures & Algorithms
+- Problem Solving
+- Modern C++
 
 ---
 
@@ -79,7 +152,7 @@ Each folder contains practice programs, exercises, and examples completed while 
 
 For every topic, I follow this workflow:
 
-1. Learn the concept thoroughly
+1. Learn the concept
 2. Understand the underlying logic
 3. Predict the output before running the code
 4. Write code from scratch
@@ -98,7 +171,7 @@ For every topic, I follow this workflow:
 - Understand Data Structures & Algorithms deeply
 - Write clean, readable, and maintainable code
 - Prepare for technical interviews
-- Build habits used in professional software engineering
+- Develop habits used in professional software engineering
 - Prepare for software engineering roles
 
 ---
@@ -106,17 +179,19 @@ For every topic, I follow this workflow:
 ## Future Topics
 
 - Classes & Objects
+- Constructors & Destructors
+- Encapsulation
 - Operator Overloading
 - Inheritance
 - Polymorphism
+- Abstraction
 - Smart Pointers
 - Exception Handling
 - File I/O
 - Lambda Expressions
-- Modern C++ Features (C++11/14/17/20)
-- Advanced STL
+- Modern C++ Features
+- Advanced C++
 - Data Structures & Algorithms
-- Competitive Programming / Problem Solving
 
 ---
 
