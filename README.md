@@ -1,6 +1,6 @@
 # C++ Learning Journey
 
-This repository documents my journey of learning modern C++ through consistent coding practice, problem-solving, and projects.
+This repository documents my journey of learning C++ through consistent coding practice, problem-solving, and software-engineering fundamentals.
 
 The goal is to build strong C++ fundamentals, develop problem-solving ability, understand Data Structures & Algorithms deeply, and prepare for software engineering interviews and professional software development.
 
@@ -16,6 +16,7 @@ The goal is to build strong C++ fundamentals, develop problem-solving ability, u
 - Characters & Strings
 - Pointers
 - STL
+- OOP
 
 Each folder contains practice programs, exercises, and examples completed while learning that topic.
 
@@ -38,6 +39,26 @@ Each folder contains practice programs, exercises, and examples completed while 
   - Passing Pointers to Functions
   - Returning Pointers
   - References
+
+### OOP Foundation
+
+- Classes & Objects
+- Constructors
+  - Parameterized Constructors
+  - Constructor Overloading
+  - Member Initializer Lists
+- Encapsulation
+  - Private Members
+  - Public Members
+  - Getters & Setters
+  - Controlling Access to Data
+- Inheritance
+  - Base Class
+  - Derived Class
+  - Public Inheritance
+  - Protected Members
+  - Accessing Protected Members Through a Derived Class
+  
 
 ### STL Foundation
 
@@ -144,7 +165,7 @@ Each folder contains practice programs, exercises, and examples completed while 
 - C++ OOP
 - Data Structures & Algorithms
 - Problem Solving
-- Modern C++
+- Writing Clean and Maintainable C++
 
 ---
 
@@ -162,14 +183,17 @@ For every topic, I follow this workflow:
 8. Organize the repository
 9. Commit and push progress to GitHub
 
+The focus is on demonstrated understanding and independent problem-solving rather than simply completing a list of topics.
+
 ---
 
 ## Repository Goals
 
-- Build a strong foundation in Modern C++
+- Build strong C++ fundamentals
 - Develop problem-solving skills from first principles
 - Understand Data Structures & Algorithms deeply
 - Write clean, readable, and maintainable code
+- Understand object-oriented programming and software design fundamentals
 - Prepare for technical interviews
 - Develop habits used in professional software engineering
 - Prepare for software engineering roles
@@ -178,20 +202,29 @@ For every topic, I follow this workflow:
 
 ## Future Topics
 
-- Classes & Objects
-- Constructors & Destructors
-- Encapsulation
+### OOP
+
+- Destructors
 - Operator Overloading
-- Inheritance
 - Polymorphism
 - Abstraction
+- Advanced Inheritance Concepts
+
+### C++ Fundamentals & Modern C++
+
 - Smart Pointers
 - Exception Handling
 - File I/O
 - Lambda Expressions
 - Modern C++ Features
 - Advanced C++
-- Data Structures & Algorithms
+
+### Data Structures & Algorithms
+
+- Advanced Data Structures
+- Algorithmic Patterns
+- Problem Solving
+- Interview-Oriented DSA Practice
 
 ---
 
