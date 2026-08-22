@@ -43,15 +43,18 @@ Each folder contains practice programs, exercises, and examples completed while 
 ### OOP Foundation
 
 - Classes & Objects
+
 - Constructors
   - Parameterized Constructors
   - Constructor Overloading
   - Member Initializer Lists
+
 - Encapsulation
   - Private Members
   - Public Members
   - Getters & Setters
   - Controlling Access to Data
+
 - Inheritance
   - Base Class
   - Derived Class
@@ -63,6 +66,14 @@ Each folder contains practice programs, exercises, and examples completed while 
   - Multiple Inheritance
   - Hierarchical Inheritance
   - Hybrid Inheritance
+
+- Polymorphism
+  - Compile-time Polymorphism
+  - Runtime Polymorphism
+  - Function Overloading
+  - Function Overriding
+  - Virtual Functions
+  - Base-class Pointers
 
 ### STL Foundation
 
@@ -129,7 +140,6 @@ The focus is on demonstrated understanding and independent problem-solving rathe
 
 - Destructors
 - Operator Overloading
-- Polymorphism
 - Abstraction
 - Advanced Inheritance Concepts
 
