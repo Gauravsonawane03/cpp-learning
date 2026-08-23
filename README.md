@@ -32,13 +32,15 @@ Each folder contains practice programs, exercises, and examples completed while 
 - Arrays & Vectors
 - Functions
 - Characters & Strings
-- Pointers
-  - What is a Pointer
-  - Dynamic Memory
-  - Const Pointers
-  - Passing Pointers to Functions
-  - Returning Pointers
-  - References
+
+### Pointers
+
+- What is a Pointer
+- Dynamic Memory
+- Const Pointers
+- Passing Pointers to Functions
+- Returning Pointers
+- References
 
 ### OOP Foundation
 
@@ -75,6 +77,11 @@ Each folder contains practice programs, exercises, and examples completed while 
   - Virtual Functions
   - Base-class Pointers
 
+- Abstraction
+  - Pure Virtual Functions
+  - Abstract Classes
+  - Implementing Abstraction Through Inheritance
+
 ### STL Foundation
 
 - Templates
@@ -96,7 +103,7 @@ Each folder contains practice programs, exercises, and examples completed while 
 
 ## Current Focus
 
-- C++ OOP
+- Strengthening C++ OOP
 - Data Structures & Algorithms
 - Problem Solving
 - Writing Clean and Maintainable C++
@@ -140,8 +147,8 @@ The focus is on demonstrated understanding and independent problem-solving rathe
 
 - Destructors
 - Operator Overloading
-- Abstraction
 - Advanced Inheritance Concepts
+- Advanced OOP Concepts
 
 ### C++ Fundamentals & Modern C++
 
@@ -171,4 +178,4 @@ The repository will continue to grow as I learn new concepts, solve coding chall
 
 ---
 
-⭐ Feedback and suggestions are welcome.
+⭐ Consistency over intensity. Deep understanding matters more than the number of topics completed.
