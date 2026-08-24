@@ -45,18 +45,15 @@ Each folder contains practice programs, exercises, and examples completed while 
 ### OOP Foundation
 
 - Classes & Objects
-
 - Constructors
   - Parameterized Constructors
   - Constructor Overloading
   - Member Initializer Lists
-
 - Encapsulation
   - Private Members
   - Public Members
   - Getters & Setters
   - Controlling Access to Data
-
 - Inheritance
   - Base Class
   - Derived Class
@@ -68,7 +65,6 @@ Each folder contains practice programs, exercises, and examples completed while 
   - Multiple Inheritance
   - Hierarchical Inheritance
   - Hybrid Inheritance
-
 - Polymorphism
   - Compile-time Polymorphism
   - Runtime Polymorphism
@@ -76,7 +72,7 @@ Each folder contains practice programs, exercises, and examples completed while 
   - Function Overriding
   - Virtual Functions
   - Base-class Pointers
-
+  - Virtual Destructors
 - Abstraction
   - Pure Virtual Functions
   - Abstract Classes
@@ -110,6 +106,37 @@ Each folder contains practice programs, exercises, and examples completed while 
 
 ---
 
+## Daily Learning Log
+
+### 24 August 2026
+
+Focused on strengthening OOP through practical implementation and code writing.
+
+#### OOP Practice
+
+- Practiced runtime polymorphism using virtual functions
+- Practiced function overriding using the `override` keyword
+- Used base-class pointers to work with derived-class objects
+- Practiced abstraction using pure virtual functions and abstract classes
+- Used inheritance to create specialized employee types
+- Implemented an employee payroll example using:
+  - Base class
+  - Derived classes
+  - Runtime polymorphism
+  - Pure virtual functions
+  - Encapsulation
+  - Protected members
+  - Public setter methods
+  - Virtual destructor
+- Practiced dynamic allocation and cleanup using `new` and `delete`
+- Tested the program with different employee types and verified polymorphic behavior
+
+The work was written from scratch, tested, debugged, and committed to GitHub.
+
+Previous learning logs are stored in earlier commits.
+
+---
+
 ## Learning Approach
 
 For every topic, I follow this workflow:
@@ -133,7 +160,7 @@ The focus is on demonstrated understanding and independent problem-solving rathe
 - Build strong C++ fundamentals
 - Develop problem-solving skills from first principles
 - Understand Data Structures & Algorithms deeply
-- Write clean, readable, and maintainable code
+- Write clean, readable, and maintainable C++
 - Understand object-oriented programming and software design fundamentals
 - Prepare for technical interviews
 - Develop habits used in professional software engineering
