@@ -106,34 +106,34 @@ Each folder contains practice programs, exercises, and examples completed while 
 
 ---
 
-## Daily Learning Log
+## Latest Learning Log
 
-### 24 August 2026
+### 26 August 2026
 
-Focused on strengthening OOP through practical implementation and code writing.
+Focused on applying OOP concepts through an independent Library Management System implementation.
 
 #### OOP Practice
 
-- Practiced runtime polymorphism using virtual functions
+- Created an abstract `Member` base class
+- Used pure virtual functions for member-specific behavior
+- Created `Studentmember` and `Facultymember` derived classes
 - Practiced function overriding using the `override` keyword
-- Used base-class pointers to work with derived-class objects
-- Practiced abstraction using pure virtual functions and abstract classes
-- Used inheritance to create specialized employee types
-- Implemented an employee payroll example using:
-  - Base class
-  - Derived classes
-  - Runtime polymorphism
-  - Pure virtual functions
-  - Encapsulation
-  - Protected members
-  - Public setter methods
-  - Virtual destructor
-- Practiced dynamic allocation and cleanup using `new` and `delete`
-- Tested the program with different employee types and verified polymorphic behavior
+- Used base-class pointers to demonstrate runtime polymorphism
+- Used a virtual destructor for safe cleanup through a base-class pointer
+- Implemented different borrowing limits for student and faculty members
 
-The work was written from scratch, tested, debugged, and committed to GitHub.
+#### Library System Practice
 
-Previous learning logs are stored in earlier commits.
+- Created a `book` class with encapsulated copy state
+- Stored total copies and currently available copies separately
+- Implemented book borrowing using `bool`
+- Implemented book returning using `bool`
+- Prevented borrowing when no copies were available
+- Prevented invalid returns when all copies were already available
+- Tested realistic borrowing and returning scenarios
+- Tested edge cases and verified runtime behavior
+
+The implementation was written from scratch, tested, debugged, and reviewed to verify encapsulation, inheritance, abstraction, and runtime polymorphism.
 
 ---
 
