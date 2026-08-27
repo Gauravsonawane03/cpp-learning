@@ -99,6 +99,22 @@ public:
         return false;
     }
 };
+class GuestMember : public Member
+{
+    public:
+    void displayInfo() override
+    {
+        cout << "Name: " << name << endl;
+        cout << "Employee ID: " << memberId << endl;
+        cout << "Type: Guest Member " << endl;
+    }
+    int getborrowedLimit() override
+    {
+        cout << "Borrowing limit:" << 1 << endl;
+        return 1;
+    }
+    
+};
 int main()
 {
     Member *member = new Studentmember;
@@ -129,6 +145,13 @@ int main()
     cout << returned << endl;
     bool borrowedAgain = mybook.borrow();
     cout << borrowedAgain << endl;
+    cout<<endl;
+    Member* GuestTempMem = new GuestMember;
+    GuestTempMem->name="Rohit";
+    GuestTempMem->setMemberId(100);
+    GuestTempMem->displayInfo();
+    GuestTempMem->getborrowedLimit();
+    delete  GuestTempMem;
 
     return 0;
 }

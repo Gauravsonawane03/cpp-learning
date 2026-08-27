@@ -108,32 +108,28 @@ Each folder contains practice programs, exercises, and examples completed while 
 
 ## Latest Learning Log
 
-### 26 August 2026
+### 27 August 2026
 
-Focused on applying OOP concepts through an independent Library Management System implementation.
+Focused on consolidating OOP concepts and demonstrating them through code modifications.
 
-#### OOP Practice
+#### OOP Consolidation
 
-- Created an abstract `Member` base class
-- Used pure virtual functions for member-specific behavior
-- Created `Studentmember` and `Facultymember` derived classes
-- Practiced function overriding using the `override` keyword
-- Used base-class pointers to demonstrate runtime polymorphism
-- Used a virtual destructor for safe cleanup through a base-class pointer
-- Implemented different borrowing limits for student and faculty members
+- Reviewed encapsulation vs abstraction
+- Reviewed inheritance vs composition
+- Reviewed compile-time vs runtime polymorphism
+- Reviewed why virtual functions are needed
+- Reviewed why a base class with virtual functions should generally have a virtual destructor
 
-#### Library System Practice
+#### Library System Modification
 
-- Created a `book` class with encapsulated copy state
-- Stored total copies and currently available copies separately
-- Implemented book borrowing using `bool`
-- Implemented book returning using `bool`
-- Prevented borrowing when no copies were available
-- Prevented invalid returns when all copies were already available
-- Tested realistic borrowing and returning scenarios
-- Tested edge cases and verified runtime behavior
+- Added a `GuestMember` derived class
+- Overrode virtual functions using `override`
+- Demonstrated runtime polymorphism through a `Member*` base-class pointer
+- Tested derived-class behavior through the base pointer
+- Tested deletion of the derived object through the base pointer
+- Verified the modified program by compiling and running it successfully
 
-The implementation was written from scratch, tested, debugged, and reviewed to verify encapsulation, inheritance, abstraction, and runtime polymorphism.
+The consolidation reinforced the core OOP concepts through both explanation and practical code modification.
 
 ---
 
@@ -172,7 +168,6 @@ The focus is on demonstrated understanding and independent problem-solving rathe
 
 ### OOP
 
-- Destructors
 - Operator Overloading
 - Advanced Inheritance Concepts
 - Advanced OOP Concepts
