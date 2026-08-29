@@ -95,11 +95,24 @@ Each folder contains practice programs, exercises, and examples completed while 
 - `std::unordered_map`
 - `std::unordered_set`
 
+### Copy Semantics & Resource Management
+
+- Copy Constructor
+- Copy Assignment Operator
+- `const` References
+- `this` and `*this`
+- Shallow Copy
+- Deep Copy
+- Dynamic Memory Ownership
+- Self-Assignment
+- Resource Cleanup with Destructors
+
 ---
 
 ## Current Focus
 
 - Strengthening C++ OOP
+- Copy Semantics and Resource Management
 - Data Structures & Algorithms
 - Problem Solving
 - Writing Clean and Maintainable C++
@@ -108,28 +121,30 @@ Each folder contains practice programs, exercises, and examples completed while 
 
 ## Latest Learning Log
 
-### 27 August 2026
+### 29 August 2026
 
-Focused on consolidating OOP concepts and demonstrating them through code modifications.
+Focused on C++ copy semantics and dynamic memory management.
 
-#### OOP Consolidation
+#### Copy Semantics
 
-- Reviewed encapsulation vs abstraction
-- Reviewed inheritance vs composition
-- Reviewed compile-time vs runtime polymorphism
-- Reviewed why virtual functions are needed
-- Reviewed why a base class with virtual functions should generally have a virtual destructor
+- Learned the difference between copy construction and copy assignment
+- Implemented and tested a custom copy constructor
+- Implemented and tested a custom copy-assignment operator
+- Understood the role of `const Student&`, `this`, and `*this`
 
-#### Library System Modification
+#### Deep Copy & Resource Management
 
-- Added a `GuestMember` derived class
-- Overrode virtual functions using `override`
-- Demonstrated runtime polymorphism through a `Member*` base-class pointer
-- Tested derived-class behavior through the base pointer
-- Tested deletion of the derived object through the base pointer
-- Verified the modified program by compiling and running it successfully
+- Understood shallow vs deep copying with pointer members
+- Implemented deep copying using dynamically allocated memory
+- Connected copying with destructors and resource ownership
+- Handled self-assignment using `this == &other`
 
-The consolidation reinforced the core OOP concepts through both explanation and practical code modification.
+#### Testing
+
+- Verified copied objects use independent memory
+- Verified modifying a copied object does not modify the original
+- Tested copy construction, copy assignment, and self-assignment
+- Compiled and ran the program successfully
 
 ---
 
