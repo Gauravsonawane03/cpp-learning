@@ -45,15 +45,18 @@ Each folder contains practice programs, exercises, and examples completed while 
 ### OOP Foundation
 
 - Classes & Objects
+
 - Constructors
   - Parameterized Constructors
   - Constructor Overloading
   - Member Initializer Lists
+
 - Encapsulation
   - Private Members
   - Public Members
   - Getters & Setters
   - Controlling Access to Data
+
 - Inheritance
   - Base Class
   - Derived Class
@@ -65,6 +68,7 @@ Each folder contains practice programs, exercises, and examples completed while 
   - Multiple Inheritance
   - Hierarchical Inheritance
   - Hybrid Inheritance
+
 - Polymorphism
   - Compile-time Polymorphism
   - Runtime Polymorphism
@@ -73,6 +77,7 @@ Each folder contains practice programs, exercises, and examples completed while 
   - Virtual Functions
   - Base-class Pointers
   - Virtual Destructors
+
 - Abstraction
   - Pure Virtual Functions
   - Abstract Classes
@@ -121,30 +126,38 @@ Each folder contains practice programs, exercises, and examples completed while 
 
 ## Latest Learning Log
 
-### 29 August 2026
+### 30 August 2026
 
-Focused on C++ copy semantics and dynamic memory management.
+Revisited C++ copy semantics and resource management with focused practice.
 
-#### Copy Semantics
+#### Copy Semantics Review
 
-- Learned the difference between copy construction and copy assignment
-- Implemented and tested a custom copy constructor
-- Implemented and tested a custom copy-assignment operator
-- Understood the role of `const Student&`, `this`, and `*this`
+- Reviewed copy constructor vs copy assignment
+- Identified when each is invoked
+- Reviewed shallow vs deep copy
+- Understood why pointer members can cause shared-memory problems
+- Reviewed the role of destructors in resource cleanup
+- Reviewed self-assignment
 
-#### Deep Copy & Resource Management
+#### Implementation
 
-- Understood shallow vs deep copying with pointer members
-- Implemented deep copying using dynamically allocated memory
-- Connected copying with destructors and resource ownership
-- Handled self-assignment using `this == &other`
+- Built a `Student` class using dynamically allocated memory
+- Implemented a custom copy constructor for deep copying
+- Implemented a custom copy-assignment operator
+- Used `const Student&` for copying
+- Used `this` and `*this`
+- Added self-assignment protection using `this == &other`
+- Added a destructor to release dynamically allocated memory
 
 #### Testing
 
-- Verified copied objects use independent memory
-- Verified modifying a copied object does not modify the original
-- Tested copy construction, copy assignment, and self-assignment
+- Tested copy construction
+- Tested copy assignment
+- Modified copied objects to verify independent memory
+- Tested self-assignment
 - Compiled and ran the program successfully
+
+The main goal was to rebuild understanding of copy semantics rather than simply repeat yesterday's implementation.
 
 ---
 
