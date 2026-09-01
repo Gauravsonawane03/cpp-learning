@@ -45,30 +45,25 @@ Each folder contains practice programs, exercises, and examples completed while 
 ### OOP Foundation
 
 - Classes & Objects
-
 - Constructors
   - Parameterized Constructors
   - Constructor Overloading
   - Member Initializer Lists
-
 - Encapsulation
   - Private Members
   - Public Members
   - Getters & Setters
   - Controlling Access to Data
-
 - Inheritance
   - Base Class
   - Derived Class
   - Public Inheritance
   - Protected Members
-  - Accessing Protected Members Through a Derived Class
   - Single Inheritance
   - Multilevel Inheritance
   - Multiple Inheritance
   - Hierarchical Inheritance
   - Hybrid Inheritance
-
 - Polymorphism
   - Compile-time Polymorphism
   - Runtime Polymorphism
@@ -77,7 +72,6 @@ Each folder contains practice programs, exercises, and examples completed while 
   - Virtual Functions
   - Base-class Pointers
   - Virtual Destructors
-
 - Abstraction
   - Pure Virtual Functions
   - Abstract Classes
@@ -112,11 +106,20 @@ Each folder contains practice programs, exercises, and examples completed while 
 - Self-Assignment
 - Resource Cleanup with Destructors
 
+### Operator Overloading
+
+- Operator Overloading
+- Overloading the `+` operator
+- Passing objects to overloaded operators
+- Returning objects from overloaded operators
+- Working with dynamically allocated data
+
 ---
 
 ## Current Focus
 
 - Strengthening C++ OOP
+- Operator Overloading
 - Copy Semantics and Resource Management
 - Data Structures & Algorithms
 - Problem Solving
@@ -126,38 +129,21 @@ Each folder contains practice programs, exercises, and examples completed while 
 
 ## Latest Learning Log
 
-### 30 August 2026
+### 1 September 2026 — Operator Overloading
 
-Revisited C++ copy semantics and resource management with focused practice.
+Continued C++ OOP by building on copy semantics and resource-management concepts.
 
-#### Copy Semantics Review
+#### Practice
 
-- Reviewed copy constructor vs copy assignment
-- Identified when each is invoked
-- Reviewed shallow vs deep copy
-- Understood why pointer members can cause shared-memory problems
-- Reviewed the role of destructors in resource cleanup
-- Reviewed self-assignment
+- Implemented a custom `operator+` for a `Student` class
+- Used dynamically allocated `marks`
+- Combined the values of two `Student` objects
+- Created and returned a new `Student` object containing the result
+- Practiced object-to-object operations using `s1 + s2`
+- Verified the result by compiling and running the program
+- Confirmed that the original objects remained unchanged
 
-#### Implementation
-
-- Built a `Student` class using dynamically allocated memory
-- Implemented a custom copy constructor for deep copying
-- Implemented a custom copy-assignment operator
-- Used `const Student&` for copying
-- Used `this` and `*this`
-- Added self-assignment protection using `this == &other`
-- Added a destructor to release dynamically allocated memory
-
-#### Testing
-
-- Tested copy construction
-- Tested copy assignment
-- Modified copied objects to verify independent memory
-- Tested self-assignment
-- Compiled and ran the program successfully
-
-The main goal was to rebuild understanding of copy semantics rather than simply repeat yesterday's implementation.
+The focus was understanding how operator overloading connects objects, functions, constructors, pointers, and destructors rather than memorizing syntax.
 
 ---
 
@@ -196,7 +182,7 @@ The focus is on demonstrated understanding and independent problem-solving rathe
 
 ### OOP
 
-- Operator Overloading
+- Advanced Operator Overloading
 - Advanced Inheritance Concepts
 - Advanced OOP Concepts
 
@@ -228,4 +214,4 @@ The repository will continue to grow as I learn new concepts, solve coding chall
 
 ---
 
-⭐ Consistency over intensity. Deep understanding matters more than the number of topics completed.
+⭐ **Consistency over intensity. Deep understanding matters more than the number of topics completed.**
