@@ -45,15 +45,18 @@ Each folder contains practice programs, exercises, and examples completed while 
 ### OOP Foundation
 
 - Classes & Objects
+
 - Constructors
   - Parameterized Constructors
   - Constructor Overloading
   - Member Initializer Lists
+
 - Encapsulation
   - Private Members
   - Public Members
   - Getters & Setters
   - Controlling Access to Data
+
 - Inheritance
   - Base Class
   - Derived Class
@@ -64,6 +67,7 @@ Each folder contains practice programs, exercises, and examples completed while 
   - Multiple Inheritance
   - Hierarchical Inheritance
   - Hybrid Inheritance
+
 - Polymorphism
   - Compile-time Polymorphism
   - Runtime Polymorphism
@@ -72,6 +76,7 @@ Each folder contains practice programs, exercises, and examples completed while 
   - Virtual Functions
   - Base-class Pointers
   - Virtual Destructors
+
 - Abstraction
   - Pure Virtual Functions
   - Abstract Classes
@@ -113,6 +118,9 @@ Each folder contains practice programs, exercises, and examples completed while 
 - Passing objects to overloaded operators
 - Returning objects from overloaded operators
 - Working with dynamically allocated data
+- Overloading the `+=` operator
+- Modifying the left-hand object with `+=`
+- Returning the current object by reference with `return *this`
 
 ---
 
@@ -129,21 +137,23 @@ Each folder contains practice programs, exercises, and examples completed while 
 
 ## Latest Learning Log
 
-### 1 September 2026 — Operator Overloading
+### 2 September 2026 — Operator Overloading Practice
 
-Continued C++ OOP by building on copy semantics and resource-management concepts.
+Continued C++ OOP by revisiting operator overloading and extending the previous `operator+` implementation.
 
 #### Practice
 
-- Implemented a custom `operator+` for a `Student` class
-- Used dynamically allocated `marks`
-- Combined the values of two `Student` objects
-- Created and returned a new `Student` object containing the result
-- Practiced object-to-object operations using `s1 + s2`
-- Verified the result by compiling and running the program
-- Confirmed that the original objects remained unchanged
+- Reviewed what operator overloading is and why it is useful
+- Reviewed the difference between `operator+` and `operator+=`
+- Implemented a custom `operator+=` for the `Student` class
+- Modified the existing object's dynamically allocated `marks` value
+- Ensured the right-hand object remained unchanged
+- Used `Student&` as the return type
+- Returned the current object using `return *this`
+- Tested the implementation with `s1 = 90` and `s2 = 80`
+- Verified that `s1` became `170` while `s2` remained `80`
 
-The focus was understanding how operator overloading connects objects, functions, constructors, pointers, and destructors rather than memorizing syntax.
+The focus was understanding the difference between creating a new result with `+` and modifying the existing left-hand object with `+=`, including why `operator+=` returns the current object by reference.
 
 ---
 
