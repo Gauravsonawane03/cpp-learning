@@ -2,11 +2,31 @@
 
 This repository documents my journey of learning C++ through consistent coding practice, problem-solving, and software-engineering fundamentals.
 
-The goal is to build strong C++ fundamentals, develop problem-solving ability, understand Data Structures & Algorithms deeply, and prepare for software engineering interviews and professional software development.
+The goal is to build strong C++ fundamentals, understand programming concepts deeply, and develop the skills required for Data Structures & Algorithms, interviews, and professional software development.
 
 ---
 
 ## Repository Structure
+
+C++
+
+├── Basics
+├── Statements & Operators
+├── Controlling Program Flow
+├── Arrays & Vectors
+├── Functions
+├── Characters & Strings
+├── Pointers
+├── STL
+└── OOP
+
+Each folder contains practice programs, exercises, and examples completed while learning that topic.
+
+---
+
+## Progress
+
+### Core C++ Foundations
 
 - Basics
 - Statements & Operators
@@ -15,72 +35,7 @@ The goal is to build strong C++ fundamentals, develop problem-solving ability, u
 - Functions
 - Characters & Strings
 - Pointers
-- STL
-- OOP
-
-Each folder contains practice programs, exercises, and examples completed while learning that topic.
-
----
-
-## Progress
-
-### Completed Topics
-
-- Basics
-- Statements & Operators
-- Controlling Program Flow
-- Arrays & Vectors
-- Functions
-- Characters & Strings
-
-### Pointers
-
-- What is a Pointer
-- Dynamic Memory
-- Const Pointers
-- Passing Pointers to Functions
-- Returning Pointers
 - References
-
-### OOP Foundation
-
-- Classes & Objects
-
-- Constructors
-  - Parameterized Constructors
-  - Constructor Overloading
-  - Member Initializer Lists
-
-- Encapsulation
-  - Private Members
-  - Public Members
-  - Getters & Setters
-  - Controlling Access to Data
-
-- Inheritance
-  - Base Class
-  - Derived Class
-  - Public Inheritance
-  - Protected Members
-  - Single Inheritance
-  - Multilevel Inheritance
-  - Multiple Inheritance
-  - Hierarchical Inheritance
-  - Hybrid Inheritance
-
-- Polymorphism
-  - Compile-time Polymorphism
-  - Runtime Polymorphism
-  - Function Overloading
-  - Function Overriding
-  - Virtual Functions
-  - Base-class Pointers
-  - Virtual Destructors
-
-- Abstraction
-  - Pure Virtual Functions
-  - Abstract Classes
-  - Implementing Abstraction Through Inheritance
 
 ### STL Foundation
 
@@ -99,6 +54,27 @@ Each folder contains practice programs, exercises, and examples completed while 
 - `std::unordered_map`
 - `std::unordered_set`
 
+### OOP
+
+- Classes & Objects
+- Constructors
+- Encapsulation
+- Inheritance
+- Polymorphism
+- Abstraction
+- Copy Semantics
+- Resource Management
+- Operator Overloading
+
+### Operator Overloading
+
+- `operator+`
+- `operator+=`
+- `operator[]`
+- Returning objects
+- Returning objects by reference
+- Modifying object state through overloaded operators
+
 ### Copy Semantics & Resource Management
 
 - Copy Constructor
@@ -111,90 +87,70 @@ Each folder contains practice programs, exercises, and examples completed while 
 - Self-Assignment
 - Resource Cleanup with Destructors
 
-### Operator Overloading
-
-- Operator Overloading
-- Overloading the `+` operator
-- Passing objects to overloaded operators
-- Returning objects from overloaded operators
-- Working with dynamically allocated data
-- Overloading the `+=` operator
-- Modifying the left-hand object with `+=`
-- Returning the current object by reference with `return *this`
-
 ---
 
 ## Current Focus
 
-- Strengthening C++ OOP
+**C++ OOP & Modern C++**
+
+Currently strengthening:
+
 - Operator Overloading
-- Copy Semantics and Resource Management
-- Data Structures & Algorithms
-- Problem Solving
-- Writing Clean and Maintainable C++
+- Copy Semantics
+- Resource Management
+- Object Lifetime
+- References
+- Clean and Maintainable C++
 
 ---
 
 ## Latest Learning Log
 
-### 2 September 2026 — Operator Overloading Practice
+### September 3, 2026 — `operator[]` Overloading
 
-Continued C++ OOP by revisiting operator overloading and extending the previous `operator+` implementation.
-
-#### Practice
-
-- Reviewed what operator overloading is and why it is useful
-- Reviewed the difference between `operator+` and `operator+=`
-- Implemented a custom `operator+=` for the `Student` class
-- Modified the existing object's dynamically allocated `marks` value
-- Ensured the right-hand object remained unchanged
-- Used `Student&` as the return type
-- Returned the current object using `return *this`
-- Tested the implementation with `s1 = 90` and `s2 = 80`
-- Verified that `s1` became `170` while `s2` remained `80`
-
-The focus was understanding the difference between creating a new result with `+` and modifying the existing left-hand object with `+=`, including why `operator+=` returns the current object by reference.
+- Reviewed `operator+=`
+- Moved to `operator[]` overloading
+- Implemented `operator[]` for a `Marks` class
+- Used an index to access internal array elements
+- Returned elements by reference
+- Verified that `operator[]` supports both reading and modifying data
+- Tested multiple objects
+- Verified the implementation by compiling and running the program
 
 ---
 
 ## Learning Approach
 
-For every topic, I follow this workflow:
+For every topic:
 
 1. Learn the concept
 2. Understand the underlying logic
-3. Predict the output before running the code
-4. Write code from scratch
-5. Debug mistakes independently
-6. Practice with multiple problems
-7. Review the completed topic
+3. Predict the output
+4. Write code independently
+5. Debug mistakes
+6. Test the implementation
+7. Review the concept
 8. Organize the repository
-9. Commit and push progress to GitHub
+9. Commit and push
 
-The focus is on demonstrated understanding and independent problem-solving rather than simply completing a list of topics.
+The focus is on understanding and independent implementation rather than simply completing a list of topics.
 
 ---
 
 ## Repository Goals
 
 - Build strong C++ fundamentals
-- Develop problem-solving skills from first principles
-- Understand Data Structures & Algorithms deeply
+- Understand programming concepts from first principles
+- Develop problem-solving skills
 - Write clean, readable, and maintainable C++
-- Understand object-oriented programming and software design fundamentals
+- Understand OOP and software design fundamentals
+- Build a strong foundation for DSA
 - Prepare for technical interviews
-- Develop habits used in professional software engineering
-- Prepare for software engineering roles
+- Develop professional software-engineering habits
 
 ---
 
 ## Future Topics
-
-### OOP
-
-- Advanced Operator Overloading
-- Advanced Inheritance Concepts
-- Advanced OOP Concepts
 
 ### C++ Fundamentals & Modern C++
 
@@ -205,22 +161,21 @@ The focus is on demonstrated understanding and independent problem-solving rathe
 - Modern C++ Features
 - Advanced C++
 
-### Data Structures & Algorithms
+### OOP
 
-- Advanced Data Structures
-- Algorithmic Patterns
-- Problem Solving
-- Interview-Oriented DSA Practice
+- Advanced Operator Overloading
+- Advanced Inheritance Concepts
+- Advanced OOP Concepts
 
 ---
 
 ## About This Repository
 
-This repository is a record of my learning journey rather than a collection of finished projects.
+This repository is a record of my C++ learning journey.
 
-Every program represents a concept I have learned, practiced, debugged, and understood while building a strong foundation in C++.
+Every program represents a concept I have learned, practiced, debugged, and understood while building a strong programming foundation.
 
-The repository will continue to grow as I learn new concepts, solve coding challenges, and build larger software projects.
+The repository will continue to grow as I learn new concepts, solve problems, and build larger software projects.
 
 ---
 
