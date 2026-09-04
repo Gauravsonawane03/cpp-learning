@@ -11,13 +11,21 @@ The goal is to build strong C++ fundamentals, understand programming concepts de
 C++
 
 ├── Basics
+
 ├── Statements & Operators
+
 ├── Controlling Program Flow
+
 ├── Arrays & Vectors
+
 ├── Functions
+
 ├── Characters & Strings
+
 ├── Pointers
+
 ├── STL
+
 └── OOP
 
 Each folder contains practice programs, exercises, and examples completed while learning that topic.
@@ -71,9 +79,11 @@ Each folder contains practice programs, exercises, and examples completed while 
 - `operator+`
 - `operator+=`
 - `operator[]`
+- `operator()`
 - Returning objects
 - Returning objects by reference
 - Modifying object state through overloaded operators
+- Using objects like functions through `operator()`
 
 ### Copy Semantics & Resource Management
 
@@ -106,16 +116,15 @@ Currently strengthening:
 
 ## Latest Learning Log
 
-### September 3, 2026 — `operator[]` Overloading
+### September 4, 2026 — `operator()` Overloading
 
-- Reviewed `operator+=`
-- Moved to `operator[]` overloading
-- Implemented `operator[]` for a `Marks` class
-- Used an index to access internal array elements
-- Returned elements by reference
-- Verified that `operator[]` supports both reading and modifying data
-- Tested multiple objects
+- Continued the operator overloading sequence after `operator[]`
+- Learned how `operator()` allows an object to be called like a function
+- Implemented `operator()` in a `Calculator` class
+- Used multiple parameters with the overloaded function-call operator
+- Tested the object using function-call syntax such as `calc(5, 3)`
 - Verified the implementation by compiling and running the program
+- Understood how `operator()` can make objects behave like callable functions
 
 ---
 
