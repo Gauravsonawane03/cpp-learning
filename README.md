@@ -116,15 +116,21 @@ Currently strengthening:
 
 ## Latest Learning Log
 
-### September 4, 2026 — `operator()` Overloading
+### September 5, 2026 — Operator Overloading Consolidation
 
-- Continued the operator overloading sequence after `operator[]`
-- Learned how `operator()` allows an object to be called like a function
-- Implemented `operator()` in a `Calculator` class
-- Used multiple parameters with the overloaded function-call operator
-- Tested the object using function-call syntax such as `calc(5, 3)`
-- Verified the implementation by compiling and running the program
-- Understood how `operator()` can make objects behave like callable functions
+- Consolidated the purpose and behavior of `operator+`, `operator+=`, `operator[]`, and `operator()`
+- Understood that `operator+` creates and returns a new object without modifying the original objects
+- Understood that `operator+=` modifies the current object
+- Implemented a combined operator-overloading practice using a `Student` class
+- Implemented `operator+` to combine student marks and return a new `Student` object
+- Implemented `operator+=` to modify the current student's marks
+- Implemented `operator[]` for indexed access to the `marks` array
+- Implemented `operator()` to provide function-call syntax for accessing marks
+- Tested all four overloaded operators together in `main()`
+- Compiled and ran the implementation successfully
+- Organized the practice into `9. OOP/operator_overloading_combined.cpp`
+
+The focus was consolidating different forms of operator overloading and understanding how overloaded operators can control object behavior and syntax.
 
 ---
 
