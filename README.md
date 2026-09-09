@@ -1,8 +1,8 @@
 # C++ Learning Journey
 
-This repository documents my journey of learning C++ through consistent coding practice, problem-solving, and software-engineering fundamentals.
+This repository documents my C++ learning through practical implementation, problem-solving, and software-engineering fundamentals.
 
-The goal is to build strong C++ fundamentals, understand programming concepts deeply, and develop the skills required for Data Structures & Algorithms, interviews, and professional software development.
+The goal is to build strong C++ fundamentals for DSA, interviews, and professional software development.
 
 ---
 
@@ -11,41 +11,31 @@ The goal is to build strong C++ fundamentals, understand programming concepts de
 C++
 
 ├── Basics
-
 ├── Statements & Operators
-
 ├── Controlling Program Flow
-
 ├── Arrays & Vectors
-
 ├── Functions
-
 ├── Characters & Strings
-
 ├── Pointers
-
 ├── STL
-
 └── OOP
-
-Each folder contains practice programs, exercises, and examples completed while learning that topic.
 
 ---
 
 ## Progress
 
-### Core C++ Foundations
+### Foundations
 
-- Basics
+- C++ Basics
 - Statements & Operators
-- Controlling Program Flow
+- Control Flow
 - Arrays & Vectors
 - Functions
 - Characters & Strings
 - Pointers
 - References
 
-### STL Foundation
+### STL
 
 - Templates
 - `std::array`
@@ -73,125 +63,59 @@ Each folder contains practice programs, exercises, and examples completed while 
 - Copy Semantics
 - Resource Management
 - Operator Overloading
-
-### Operator Overloading
-
-- `operator+`
-- `operator+=`
-- `operator[]`
-- `operator()`
-- Returning objects
-- Returning objects by reference
-- Modifying object state through overloaded operators
-- Using objects like functions through `operator()`
-
-### Copy Semantics & Resource Management
-
-- Copy Constructor
-- Copy Assignment Operator
-- `const` References
-- `this` and `*this`
-- Shallow Copy
-- Deep Copy
-- Dynamic Memory Ownership
-- Self-Assignment
-- Resource Cleanup with Destructors
+- Move Semantics
 
 ---
 
 ## Current Focus
 
-**C++ OOP & Modern C++**
+**Modern C++ — Object Lifetime & Ownership**
 
-Currently strengthening:
+Currently working on:
 
-- Operator Overloading
-- Copy Semantics
-- Resource Management
+- Copy vs Move Semantics
+- Rvalue References
+- `std::move`
+- Resource Ownership
 - Object Lifetime
-- References
-- Clean and Maintainable C++
 
 ---
 
 ## Latest Learning Log
 
-### September 5, 2026 — Operator Overloading Consolidation
+### September 9, 2026 — Move Semantics
 
-- Consolidated the purpose and behavior of `operator+`, `operator+=`, `operator[]`, and `operator()`
-- Understood that `operator+` creates and returns a new object without modifying the original objects
-- Understood that `operator+=` modifies the current object
-- Implemented a combined operator-overloading practice using a `Student` class
-- Implemented `operator+` to combine student marks and return a new `Student` object
-- Implemented `operator+=` to modify the current student's marks
-- Implemented `operator[]` for indexed access to the `marks` array
-- Implemented `operator()` to provide function-call syntax for accessing marks
-- Tested all four overloaded operators together in `main()`
-- Compiled and ran the implementation successfully
-- Organized the practice into `9. OOP/operator_overloading_combined.cpp`
-
-The focus was consolidating different forms of operator overloading and understanding how overloaded operators can control object behavior and syntax.
+- Reviewed copy constructor, copy assignment, and destructor
+- Started Move Semantics
+- Understood the difference between copying and moving resources
+- Understood ownership transfer for dynamically allocated memory
+- Learned the purpose of `std::move`
+- Implemented a move constructor
+- Implemented a move assignment operator
+- Tested resource ownership transfer and cleanup
+- Added the practice file to `9. OOP/move_semantics.cpp`
 
 ---
 
 ## Learning Approach
 
-For every topic:
+For each topic:
 
-1. Learn the concept
-2. Understand the underlying logic
-3. Predict the output
-4. Write code independently
-5. Debug mistakes
-6. Test the implementation
-7. Review the concept
-8. Organize the repository
-9. Commit and push
+1. Understand the concept
+2. Reason about how it works
+3. Implement it independently
+4. Test and debug
+5. Review edge cases
+6. Commit the work
 
-The focus is on understanding and independent implementation rather than simply completing a list of topics.
+The focus is on demonstrated understanding rather than simply completing topics.
 
 ---
 
-## Repository Goals
+## Goal
 
-- Build strong C++ fundamentals
-- Understand programming concepts from first principles
-- Develop problem-solving skills
-- Write clean, readable, and maintainable C++
-- Understand OOP and software design fundamentals
-- Build a strong foundation for DSA
-- Prepare for technical interviews
-- Develop professional software-engineering habits
+Build strong C++ fundamentals, write clean and maintainable code, and develop the programming foundation required for DSA, interviews, and software engineering.
 
 ---
 
-## Future Topics
-
-### C++ Fundamentals & Modern C++
-
-- Smart Pointers
-- Exception Handling
-- File I/O
-- Lambda Expressions
-- Modern C++ Features
-- Advanced C++
-
-### OOP
-
-- Advanced Operator Overloading
-- Advanced Inheritance Concepts
-- Advanced OOP Concepts
-
----
-
-## About This Repository
-
-This repository is a record of my C++ learning journey.
-
-Every program represents a concept I have learned, practiced, debugged, and understood while building a strong programming foundation.
-
-The repository will continue to grow as I learn new concepts, solve problems, and build larger software projects.
-
----
-
-⭐ **Consistency over intensity. Deep understanding matters more than the number of topics completed.**
+⭐ Consistency over intensity. Deep understanding matters more than the number of topics completed.
