@@ -11,13 +11,21 @@ The goal is to build strong C++ fundamentals for DSA, interviews, and profession
 C++
 
 ├── Basics
+
 ├── Statements & Operators
+
 ├── Controlling Program Flow
+
 ├── Arrays & Vectors
+
 ├── Functions
+
 ├── Characters & Strings
+
 ├── Pointers
+
 ├── STL
+
 └── OOP
 
 ---
@@ -83,17 +91,17 @@ Currently working on:
 
 ## Latest Learning Log
 
-### September 9, 2026 — Move Semantics
+### September 10, 2026 — Resource Management & Move Semantics
 
 - Reviewed copy constructor, copy assignment, and destructor
-- Started Move Semantics
-- Understood the difference between copying and moving resources
-- Understood ownership transfer for dynamically allocated memory
-- Learned the purpose of `std::move`
+- Reinforced the difference between shallow and deep copy
+- Reviewed lvalue vs rvalue and the purpose of `std::move`
+- Practiced resource ownership using dynamically allocated memory
 - Implemented a move constructor
 - Implemented a move assignment operator
-- Tested resource ownership transfer and cleanup
-- Added the practice file to `9. OOP/move_semantics.cpp`
+- Used `nullptr` to safely handle moved-from objects
+- Tested ownership transfer and resource cleanup
+- Added the practice file to `9. OOP/resource_management_ownership.cpp`
 
 ---
 
