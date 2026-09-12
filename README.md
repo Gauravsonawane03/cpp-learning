@@ -11,21 +11,13 @@ The goal is to build strong C++ fundamentals for DSA, interviews, and profession
 C++
 
 ├── Basics
-
 ├── Statements & Operators
-
 ├── Controlling Program Flow
-
 ├── Arrays & Vectors
-
 ├── Functions
-
 ├── Characters & Strings
-
 ├── Pointers
-
 ├── STL
-
 └── OOP
 
 ---
@@ -91,17 +83,13 @@ Currently working on:
 
 ## Latest Learning Log
 
-### September 10, 2026 — Resource Management & Move Semantics
+### September 12, 2026 — STL & OOP Practice
 
-- Reviewed copy constructor, copy assignment, and destructor
-- Reinforced the difference between shallow and deep copy
-- Reviewed lvalue vs rvalue and the purpose of `std::move`
-- Practiced resource ownership using dynamically allocated memory
-- Implemented a move constructor
-- Implemented a move assignment operator
-- Used `nullptr` to safely handle moved-from objects
-- Tested ownership transfer and resource cleanup
-- Added the practice file to `9. OOP/resource_management_ownership.cpp`
+- Practiced `pair`, `map`, and `set` through a fresh program
+- Reinforced container selection and practical use
+- Revisited abstraction and polymorphism
+- Implemented a payment example using virtual functions and overriding
+- Tested both programs successfully
 
 ---
 
