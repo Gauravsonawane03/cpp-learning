@@ -11,13 +11,21 @@ The goal is to build strong C++ fundamentals for DSA, interviews, and profession
 C++
 
 ├── Basics
+
 ├── Statements & Operators
+
 ├── Controlling Program Flow
+
 ├── Arrays & Vectors
+
 ├── Functions
+
 ├── Characters & Strings
+
 ├── Pointers
+
 ├── STL
+
 └── OOP
 
 ---
@@ -27,42 +35,71 @@ C++
 ### Foundations
 
 - C++ Basics
+
 - Statements & Operators
+
 - Control Flow
+
 - Arrays & Vectors
+
 - Functions
+
 - Characters & Strings
+
 - Pointers
+
 - References
 
 ### STL
 
 - Templates
+
 - `std::array`
+
 - `std::vector`
+
 - Iterators
+
 - STL Algorithms
+
 - `std::deque`
+
 - `std::list`
+
 - `std::stack`
+
 - `std::queue`
+
 - `std::priority_queue`
+
 - `std::set`
+
 - `std::map`
+
 - `std::unordered_map`
+
 - `std::unordered_set`
 
 ### OOP
 
 - Classes & Objects
+
 - Constructors
+
 - Encapsulation
+
 - Inheritance
+
 - Polymorphism
+
 - Abstraction
+
 - Copy Semantics
+
 - Resource Management
+
 - Operator Overloading
+
 - Move Semantics
 
 ---
@@ -74,22 +111,30 @@ C++
 Currently working on:
 
 - Copy vs Move Semantics
+
 - Rvalue References
+
 - `std::move`
+
 - Resource Ownership
+
 - Object Lifetime
 
 ---
 
 ## Latest Learning Log
 
-### September 12, 2026 — STL & OOP Practice
+### September 14, 2026 — STL Recall Practice
 
-- Practiced `pair`, `map`, and `set` through a fresh program
-- Reinforced container selection and practical use
-- Revisited abstraction and polymorphism
-- Implemented a payment example using virtual functions and overriding
-- Tested both programs successfully
+- Independently practiced `vector`, `unordered_map`, and `unordered_set`
+
+- Recalled basic operations and practical use cases
+
+- Reviewed `map` vs `unordered_map` and `set` vs `unordered_set`
+
+- Recalled average `O(1)` lookup for unordered containers and `O(log N)` for ordered containers
+
+- Tested all implementations successfully
 
 ---
 
@@ -98,10 +143,15 @@ Currently working on:
 For each topic:
 
 1. Understand the concept
+
 2. Reason about how it works
+
 3. Implement it independently
+
 4. Test and debug
+
 5. Review edge cases
+
 6. Commit the work
 
 The focus is on demonstrated understanding rather than simply completing topics.
