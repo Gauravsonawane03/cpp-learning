@@ -25,6 +25,7 @@ C++
 ## Progress
 
 ### Foundations
+
 - C++ Basics
 - Statements & Operators
 - Control Flow
@@ -35,6 +36,7 @@ C++
 - References
 
 ### STL
+
 - Templates
 - `std::array`
 - `std::vector`
@@ -51,6 +53,7 @@ C++
 - `std::unordered_set`
 
 ### OOP
+
 - Classes & Objects
 - Constructors
 - Encapsulation
@@ -66,26 +69,31 @@ C++
 
 ## Current Focus
 
-**STL Strengthening**
+**OOP Strengthening**
 
 Currently working on:
-- STL container selection
-- Ordered vs unordered containers
-- STL algorithms
-- Independent implementation and practical usage
+
+- Abstraction
+- Abstract classes
+- Pure virtual functions
+- Runtime polymorphism
+- Virtual functions and overriding
+- Base-class pointers and runtime dispatch
+- Virtual destructors
+- Independent implementation
+- Testing and debugging
 
 ---
 
 ## Latest Learning Log
 
-### September 15, 2026 — STL Strengthening
+### September 16, 2026 — OOP Strengthening
 
-- Independently recalled `vector`, `pair`, `map`, `unordered_map`, `set`, and `unordered_set`.
-- Reviewed container ordering, common operations, complexity, and use cases.
-- Compared `map` vs `unordered_map`, `set` vs `unordered_set`, and `vector` vs `list`.
-- Practiced STL containers through frequency counting and unique-element examples.
-- Practiced iterators, `begin()`, `end()`, range-based loops, `sort()`, `find()`, and `reverse()`.
-- Tested and debugged all implementations successfully.
+- Reviewed abstraction, abstract classes, and pure virtual functions.
+- Independently implemented an abstract `Notification` hierarchy with different derived-class behavior.
+- Practiced runtime polymorphism using virtual functions, overriding, and base-class pointers.
+- Reviewed runtime dispatch and the role of virtual destructors in polymorphic hierarchies.
+- Tested and debugged the implementation successfully.
 
 ---
 
