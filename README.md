@@ -11,13 +11,21 @@ The goal is to build strong C++ fundamentals for DSA, interviews, and profession
 C++
 
 ├── Basics
+
 ├── Statements & Operators
+
 ├── Controlling Program Flow
+
 ├── Arrays & Vectors
+
 ├── Functions
+
 ├── Characters & Strings
+
 ├── Pointers
+
 ├── STL
+
 └── OOP
 
 ---
@@ -73,13 +81,19 @@ C++
 
 Currently working on:
 
-- Abstraction
-- Abstract classes
-- Pure virtual functions
-- Runtime polymorphism
-- Virtual functions and overriding
-- Base-class pointers and runtime dispatch
-- Virtual destructors
+- Copy semantics
+- Deep copy and shallow copy
+- Copy constructors
+- Copy assignment operators
+- Self-assignment protection
+- Resource management
+- Dynamic memory ownership
+- Destructors and resource release
+- Move semantics
+- Move constructors
+- Move assignment operators
+- Ownership transfer
+- Moved-from object state
 - Independent implementation
 - Testing and debugging
 
@@ -87,13 +101,20 @@ Currently working on:
 
 ## Latest Learning Log
 
-### September 16, 2026 — OOP Strengthening
+### September 18, 2026 — Copy Semantics & Resource Management
 
-- Reviewed abstraction, abstract classes, and pure virtual functions.
-- Independently implemented an abstract `Notification` hierarchy with different derived-class behavior.
-- Practiced runtime polymorphism using virtual functions, overriding, and base-class pointers.
-- Reviewed runtime dispatch and the role of virtual destructors in polymorphic hierarchies.
-- Tested and debugged the implementation successfully.
+- Implemented a resource-owning `MyArray` class using dynamic memory.
+- Implemented a destructor to release dynamically allocated resources.
+- Implemented a deep-copy constructor with independent memory allocation.
+- Implemented copy assignment with resource release, deep copying, and self-assignment protection.
+- Tested copy independence by modifying the original and verifying that the copied object remained independent.
+- Re-learned move semantics from first principles, including lvalues, rvalues, and the role of `std::move`.
+- Implemented a move constructor that transfers ownership of the existing allocation and leaves the source object with `nullptr`.
+- Implemented move assignment with old-resource release, ownership transfer, size transfer, and self-move protection.
+- Tested moved-to and moved-from object states and verified ownership transfer through independent checks.
+- Reviewed the differences between copy construction, copy assignment, move construction, and move assignment.
+- Reviewed why resource ownership must be handled explicitly when a class manages dynamic memory.
+- Tested and debugged the implementations successfully.
 
 ---
 
