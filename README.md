@@ -9,23 +9,14 @@ The goal is to build strong C++ fundamentals for DSA, interviews, and profession
 ## Repository Structure
 
 C++
-
 ├── Basics
-
 ├── Statements & Operators
-
 ├── Controlling Program Flow
-
 ├── Arrays & Vectors
-
 ├── Functions
-
 ├── Characters & Strings
-
 ├── Pointers
-
 ├── STL
-
 └── OOP
 
 ---
@@ -33,7 +24,6 @@ C++
 ## Progress
 
 ### Foundations
-
 - C++ Basics
 - Statements & Operators
 - Control Flow
@@ -44,7 +34,6 @@ C++
 - References
 
 ### STL
-
 - Templates
 - `std::array`
 - `std::vector`
@@ -61,7 +50,6 @@ C++
 - `std::unordered_set`
 
 ### OOP
-
 - Classes & Objects
 - Constructors
 - Encapsulation
@@ -80,7 +68,6 @@ C++
 **OOP Strengthening**
 
 Currently working on:
-
 - Copy semantics
 - Deep copy and shallow copy
 - Copy constructors
@@ -101,27 +88,27 @@ Currently working on:
 
 ## Latest Learning Log
 
-### September 18, 2026 — Copy Semantics & Resource Management
+### October 2, 2026 — Buffer Rule of Five
 
-- Implemented a resource-owning `MyArray` class using dynamic memory.
-- Implemented a destructor to release dynamically allocated resources.
-- Implemented a deep-copy constructor with independent memory allocation.
-- Implemented copy assignment with resource release, deep copying, and self-assignment protection.
-- Tested copy independence by modifying the original and verifying that the copied object remained independent.
-- Re-learned move semantics from first principles, including lvalues, rvalues, and the role of `std::move`.
-- Implemented a move constructor that transfers ownership of the existing allocation and leaves the source object with `nullptr`.
-- Implemented move assignment with old-resource release, ownership transfer, size transfer, and self-move protection.
-- Tested moved-to and moved-from object states and verified ownership transfer through independent checks.
-- Reviewed the differences between copy construction, copy assignment, move construction, and move assignment.
-- Reviewed why resource ownership must be handled explicitly when a class manages dynamic memory.
-- Tested and debugged the implementations successfully.
+- Continued the resource-owning `buffer` class implementation from copy assignment.
+- Implemented copy assignment with self-assignment protection, old-resource release, size transfer, deep copying, and correct ownership handling.
+- Verified deep-copy independence by modifying the original object without affecting the assigned object.
+- Tested copying objects with different sizes and verified that all elements and the correct size were transferred.
+- Tested self-assignment and verified that the object remained valid.
+- Implemented a move constructor that transfers the existing allocation without copying and leaves the source in an empty moved-from state (`nullptr`, size `0`).
+- Implemented move assignment with self-move protection, old-resource release, ownership transfer, and moved-from state handling.
+- Verified move construction and move assignment using actual object data.
+- Tested self-move assignment and verified that the object remained valid.
+- Reviewed ownership behavior across copy construction, copy assignment, move construction, move assignment, and destruction.
+- Verified that the destructor releases owned memory with `delete[]` and that destruction of a moved-from object is safe.
+- Tested the major cases individually and debugged implementation issues successfully.
+- Current capability: **Implemented → Applied**. Retention will require later independent implementation on a fresh resource-owning problem.
 
 ---
 
 ## Learning Approach
 
 For each topic:
-
 1. Understand the concept
 2. Reason about how it works
 3. Implement it independently
