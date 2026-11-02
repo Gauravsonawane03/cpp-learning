@@ -8,6 +8,7 @@ The goal is to build strong C++ fundamentals for DSA, interviews, and profession
 
 ## Repository Structure
 
+```text
 C++
 ├── Basics
 ├── Statements & Operators
@@ -18,6 +19,7 @@ C++
 ├── Pointers
 ├── STL
 └── OOP
+```
 
 ---
 
@@ -88,21 +90,22 @@ Currently working on:
 
 ## Latest Learning Log
 
-### October 2, 2026 — Buffer Rule of Five
+### November 2, 2026 — Rule of Five: IntArray
 
-- Continued the resource-owning `buffer` class implementation from copy assignment.
-- Implemented copy assignment with self-assignment protection, old-resource release, size transfer, deep copying, and correct ownership handling.
-- Verified deep-copy independence by modifying the original object without affecting the assigned object.
-- Tested copying objects with different sizes and verified that all elements and the correct size were transferred.
-- Tested self-assignment and verified that the object remained valid.
-- Implemented a move constructor that transfers the existing allocation without copying and leaves the source in an empty moved-from state (`nullptr`, size `0`).
-- Implemented move assignment with self-move protection, old-resource release, ownership transfer, and moved-from state handling.
-- Verified move construction and move assignment using actual object data.
-- Tested self-move assignment and verified that the object remained valid.
-- Reviewed ownership behavior across copy construction, copy assignment, move construction, move assignment, and destruction.
-- Verified that the destructor releases owned memory with `delete[]` and that destruction of a moved-from object is safe.
-- Tested the major cases individually and debugged implementation issues successfully.
-- Current capability: **Implemented → Applied**. Retention will require later independent implementation on a fresh resource-owning problem.
+- Implemented a new resource-owning `IntArray` class using dynamically allocated integer arrays.
+- Implemented a constructor for dynamic memory allocation and a destructor for resource cleanup using `delete[]`.
+- Implemented a copy constructor with independent memory allocation and element-by-element copying.
+- Verified deep-copy independence by modifying the copied object without affecting the original.
+- Implemented copy assignment with self-assignment protection, existing-resource cleanup, and deep copying.
+- Tested copy assignment between objects with different array sizes.
+- Verified self-assignment and preservation of the original object.
+- Implemented a move constructor that transfers the existing allocation without copying elements.
+- Ensured moved-from objects enter a valid empty state (`nullptr`, size `0`).
+- Implemented move assignment with self-move protection, destination-resource cleanup, and ownership transfer.
+- Tested move construction and move assignment using actual array data.
+- Verified self-move assignment and preservation of the object's contents.
+- Tested resource ownership and destruction behavior across copy and move operations.
+- Compiled and executed the implementation with AddressSanitizer to check for memory errors.
 
 ---
 
